@@ -1,0 +1,156 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 700px;
+    background-color: #181B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    margin-right: 173px;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fundo_branco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 173px;
+    max-width: 547px;
+    height: 560px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 40px 70px 70px;
+    margin-top: 20px;
+}
+
+.fundo_branco h1 {
+    font-size: 24px;
+    text-align: center;
+    width: 382px;
+    height: 29px;
+    white-space: nowrap;
+}
+
+.name,
+._email,
+.data,
+._senha {
+    display: inline;
+    position: relative;
+    background-color: #F2F2F2;
+    top: 10px;
+    width: 46.43px;
+    height: Hug (15px);
+    left: 14.29px;
+    padding: 0px 4px;
+}
+
+.Nome,
+.Email,
+.Data,
+.Senha {
+    display: flex;
+    width: 400px;
+    height: Hug (50px);
+    padding: 13px 15px 13px 15px;
+    border-radius: 6px;
+    border: 1px solid #272727;
+}
+
+.Olho {
+    background-color: #F4F4F4;
+    ;
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 335px;
+    width: 21px;
+    height: 13px;
+    padding: 4px 1px 5px 1px;
+}
+
+._Olho {
+    background-color: #F4F4F4;
+    ;
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 242px;
+    width: 21px;
+    height: 13px;
+    padding: 4px 1px 5px 1px;
+
+}
+
+#Senha {
+    width: Fill (338px)px;
+    height: Hug (9px)px;
+
+}
+
+#esquecida {
+    color: #105F74;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 432px;
+    height: 49px;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: #105F74;
+}
+
+#cadastrar {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-decoration: none;
+    width: 400px;
+    color: #F2F2F2;
+}
+
+
+#Login {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    width: 400px;
+    line-height: 24px;
+    margin: 15px 20px 15px 20px;
+    color: #105F74;
+}
+
+#termos {
+    margin-top: 20px;
+    left: 200px;
+}
+
+.termos_e_condições {
+    width: 400px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

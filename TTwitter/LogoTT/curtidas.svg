@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="40" height="40">
+	<title>Novo Projeto</title>
+	<defs>
+		<image  width="80" height="83" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABTCAMAAAA/W3AxAAAAAXNSR0IB2cksfwAAAGZQTFRFAAAA7+/v9fX19PT09PT09PT09PT09fX18vLy7+/v8vLy9/f38/Pz9PT08/Pz9PT09PT08/Pz8vLy9PT09/f39fX1////8/Pz9fX19PT08/Pz9PT08/Pz8vLy9fX19PT07+/v8/PzC/3fyQAAACJ0Uk5TABB/v9//z69gIKBf73BAj++AUKAgzxCQn2CwMMDg358wr7dUCJoAAAMLSURBVHiczZhvk5pADMYJ6o1Ir1q1dWjnbtrv/60619Za51q1nqeilD9PAGF1FzYvmheuLPCbQPZJspBz2yix5PdVc2F+w82zHh35b9Q1Q94E+rQvHbmHyBJ4X/GJjgbEG8C3u+rMYGUD9I71c97aAuh26nPnkwWwi1M+Udhjz4bL1kB+gyNaxL/v/mZH/U1r4Oz5wqeOmw7jn62Bd9kSmcwv+HzYHOiF2Tj9kY2TtSWwj3hyFKyBg0zEdMDxx1/p8OZ3WyAWTR4EBKU18NMiG3NpANh62XBeyLMXgt7R5rArQDg0e+KJh7kVkLrZWDzhaJsO+uygBrLuPnzjmZ5jBYQugq/5jCWworviHbTMNqy7+2eema6sgFXdFUBF0k3t7p7fthIIneW6U9WXqnGZVQKxRkrJTw+M3VjsrgD57lJITYBO1Nupgcj3/p9iqq+vTgnxFCmB0N37702BjrtXAXnNcbJOjIuUzry1AjiGgAvdxStydBvECjifFEAk65Lu9BbstnBRAUSy1pePCyI0MFb0LzXdGRkiSXUgBzQ06QZrt/l1IHRXJGsz46VfB0J3+vpmCFTozshQ1qIaEMm6rDsjw9qYxcP0UD7xmsWirDsT4/a0T+S6qgvKujOw4Qv/ocFRfYU215escGoyJwS1Yo1050xDhgyX1FNe0kx3eTKK9x1XgA11R8Mt+3EF2FB3vNjisqYGNtUd59AozIEsjCxpNAayvo5SQBaemIdFipIB8hPHrYEI8PMT5RQJ4PiAjX+iLwFg0aYkGUXCw0dkpvQukUdGZ5C2+CJBQQlNM4oIEMkmbVBFgKjJUfjfAlFGxKLMX3jSnlwC+AVXp2neHkiPKOH+KpIAeieuFllhswbmSg5eliJAlgnvre2BvA1E/ycQ5cttjQAQBQr3CAAhPDkgugY5IHpXsXfI34zQotov7DNKHlpUBk4wvUn9D7SfuNj23ACzD1fauebGjygFzFteISAygxiw4Dn00Kw9V9ooKjYhFDTZkCjNp/I+k5yAlFspUztvvEX5+B/uDCbp/ljxJgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Camada 1" href="#img1" x="0" y="-2"/>
+</svg>

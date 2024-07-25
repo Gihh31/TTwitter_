@@ -1,0 +1,259 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 700px;
+    background-color: #181B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    margin-left: 173px;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fundo_branco {
+    position: relative;
+    margin-right: 173px;
+    max-width: 547px;
+    height: 560px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 40px 70px 25px 70px;
+}
+
+.fundo_branco h1 {
+    position: relative;
+    left: 23px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 29.05px;
+    width: 382px;
+    height: 29px;
+
+}
+
+
+.name,
+._email,
+.data,
+._senha {
+    display: inline;
+    position: relative;
+    background-color: #F2F2F2;
+    top: 10px;
+    width: 46.43px;
+    height: Hug (15px);
+    left: 14.29px;
+    padding: 0px 4px;
+}
+
+
+
+.Nome,
+.Email,
+.Data,
+.Senha {
+    display: flex;
+    width: 400px;
+    height: Hug (50px);
+    padding: 13px 15px 13px 15px;
+    border-radius: 6px;
+    border: 1px solid #272727;
+}
+
+.Olho {
+    display: inline;
+    position: relative;
+    background-color: #F2F2F2;
+    top: 40px;
+    left: 335px;
+    width: 20px;
+    height: 15px;
+    padding: 4px 1px 5px 1px;
+}
+
+#Senha {
+    width: Fill (338px);
+    height: Hug (9px);
+    gap: 8px;
+    opacity: 0px;
+
+}
+
+#esquecida {
+    color: #105F74;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 432px;
+    height: 49px;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    opacity: 0px;
+    background: #105F74;
+}
+
+.botão {
+    text-decoration: none;
+}
+
+.enviar {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #F2F2F2;
+}
+
+
+#registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px 20px 15px 20px;
+    color: #105F74;
+
+}
+
+.termos_e_condições {
+    position: relative;
+    top: 100px;
+    left: 5px;
+    width: 400px;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .Logo {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .fundo_branco {
+        max-width: 68vw;
+        margin-right: 15px;
+        padding: 25px 35px 12.5px 35px;
+    }
+
+    .fundo_branco h1 {
+        margin-bottom: 5px;
+        line-height: 24.2px;
+        width: 246px;
+        height: 48px;
+    }
+
+    .name,
+    ._email,
+    .data,
+    ._senha {
+        display: inline;
+        position: relative;
+        background-color: #F2F2F2;
+        top: 10px;
+        width: 38.47px;
+        height: 15px;
+        left: 3.75px;
+        padding: 0px 4px;
+    }
+
+
+
+    .Nome,
+    .Email,
+    .Data,
+    .Senha {
+        display: flex;
+        width: 250.5px;
+        height: 15px;
+        padding: 13px 15px 13px 15px;
+        border-radius: 6px;
+        border: 1px solid #272727;
+    }
+
+    .Olho {
+        display: inline;
+        position: relative;
+        background-color: #F2F2F2;
+        top: 39px;
+        left: 190px;
+        width: 20px;
+        height: 15px;
+        padding: 4px 1px 5px 1px;
+    }
+
+    #Senha {
+        width: Fill (338px);
+        height: Hug (9px);
+        gap: 8px;
+        opacity: 0px;
+
+    }
+
+    #esquecida {
+        visibility: hidden;
+    }
+
+    button {
+        width: 267px;
+        height: 47px;
+        padding: 15px 20px 15px 20px;
+        margin: 0px 0;
+    }
+
+    #enviar {
+        width: 49px;
+        height: 19px;
+    }
+
+
+
+    .termos_e_condições {
+        position: relative;
+        top: 100px;
+        left: 5px;
+        width: 400px;
+        height: 48px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}

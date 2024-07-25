@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #181B24;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #14161D;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+
+.Logo {
+    margin-right: 197px;
+    margin-left: 43px;
+    width: 60px;
+    height: 62.35px;
+    top: 16px;
+    left: 43px;
+}
+
+.topo input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 670px;
+    height: 10px;
+    border-radius: 25px;
+    opacity: 0.2px;
+    background: #484848;
+    border: 1px;
+    padding: 10px;
+    color: #FFFFFF80;
+    opacity: 50%;
+}
+
+.bússola {
+    width: 25px;
+    height: 23px;
+    background: #333333;
+    position: relative;
+    z-index: 1;
+    right: 40px;
+}
+
+.fundo {
+    width: 1440px;
+    height: 929px;
+    background-color: #181B24;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lado_esquerdo {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.casinha,
+.sino {
+    width: 47.56px;
+    height: 44.92px;
+    margin-bottom: 20px;
+}
+
+.chat {
+    width: 47.56px;
+    height: 44.92px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.configurações {
+    width: 47.56px;
+    height: 44.92px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.central {
+    align-self: flex-start;
+    width: 670px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.postar {
+    border: 1px solid #484848;
+    border-radius: 10px;
+    padding: 20px 31px 20px 31px;
+    height: 89.84px;
+}
+
+.postar p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#botão-postagem {
+    justify-self: end;
+    background-color: #22A2F2;
+    width: 98px;
+    color: #000;
+    font-size: 0.75em;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 13px 30px;
+    margin: 0 0 0 auto;
+    border: 0px solid;
+}
+
+
+.post {
+    position: absolute;
+    border: 1px solid #484848;
+    padding: 47px 73px 20px 97px;
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 709px;
+    width: 500px;
+}
+
+.elementos_post {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.perfil {
+    margin-right: 15px;
+    border-radius: 25px;
+}
+
+.coment {
+    margin-right: 15px;
+}
+
+.curtir {
+    margin-right: 15px;
+}
+
+.favoritar {
+    margin-right: 15px;
+}
+
+.elementos_post h3 {
+    color: #FFFFFF;
+    margin-right: 186px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.legenda_post {
+    position: relative;
+    top: 77px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.lado_direito {
+    width: 311px;
+    margin-right: 150px;
+    margin-top: 36px;
+}
+
+.lado_direito h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+
+.usuario1,
+.usuario2,
+.usuario3,
+.usuario4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.usuario1 img,
+.usuario2 img,
+.usuario3 img,
+.usuario4 img {
+    border-radius: 25px;
+}
+
+.usuario1 h3,
+.usuario2 h3,
+.usuario3 h3,
+.usuario4 h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: 65px;
+    margin-left: 10px;
+}
+
+.usuario1 button,
+.usuario2 button,
+.usuario3 button,
+.usuario4 button {
+    border-radius: 15px;
+    background-color: #222;
+    color: #22A2F2;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 12px;
+}
